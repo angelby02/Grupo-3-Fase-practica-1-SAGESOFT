@@ -1,0 +1,890 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+
+            <script>
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+                ga('create', 'UA-35624535-2', 'auto');
+                ga('send', 'pageview');
+
+                ga('create', 'UA-35624535-33', 'auto', 'multidomain');
+
+                var locationHref = window.location.href;
+                var locationOrigin = window.location.origin;
+                var urlVisitedPage = locationHref.split(locationOrigin).pop();
+                ga('multidomain.set', 'dimension2', urlVisitedPage);
+                ga('multidomain.set', 'dimension3', 'ES');
+                ga('multidomain.set', 'dimension4', 'public');
+                ga('multidomain.set', 'dimension5', 'anonymous');
+                ga('multidomain.set', 'dimension10', 'ES');
+
+                ga('multidomain.set', 'page', '/ccm-' + 'app');
+                ga('multidomain.require', 'GTM-59LM3TJ');
+                ga('multidomain.send', 'pageview');
+
+            </script>
+        <meta charset="utf-8" />
+
+        <!--[if IE ]>
+            <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <![endif]-->
+
+        <title>Cotizacion-SOFTLUTIONS EC</title>
+        <meta name="description" content="Calcula de forma sencilla y rápida el coste para crear tu App. Obtén un presupuesto aproximado de lo que costaría tu aplicación móvil." />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <meta name="robots" content="index,follow,noodp,noydir" />
+
+        
+
+        <meta name="theme-color" content="#3d3935" />
+
+        <meta property="og:locale" content="es_ES" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="¿Cuánto cuesta mi App? - Calculador de presupuestos" />
+        <meta property="og:description" content="Calcula de forma sencilla y rápida el coste para crear tu App. Obtén un presupuesto aproximado de lo que costaría tu aplicación móvil." />
+        <meta property="og:url" content="https://www.cuantocuestamiapp.com/" />
+        <meta property="og:site_name" content="Cuanto cuesta mi App" />
+        <meta property="og:image" content="https://www.cuantocuestamiapp.com/img/app/share-og-es.png" />
+        
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png" sizes="180x180">
+        <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
+        <link rel="manifest" href="manifest.json">
+        <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="stylesheet" href="css/animate.css">
+	    <!-- Icomoon Icon Fonts-->
+	    <link rel="stylesheet" href="css/icomoon.css">
+        <link rel="stylesheet" href="css/home.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/simple-line-icons.css">
+        <!-- Datetimepicker -->
+        <link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css">
+        <!-- Flexslider -->
+        <link rel="stylesheet" href="css/flexslider.css">
+        <link rel="shortcut icon" href="favicon.png">
+
+
+        <!--[if lt IE 9]>
+            <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+            <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
+        <![endif]-->
+    </head>
+    <body class="theme-dark" data-theme-color="#3d3935">
+
+        <script
+      src="https://kit.fontawesome.com/7e5b2d153f.js"
+      crossorigin="anonymous"
+    ></script>
+
+             <!--==============
+				menu header
+			=====================-->   
+            <div class="nabar">
+                <nav>
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <ul>
+                    <li><a class="active" href="index.html">INICIO</a></li>
+                    <li><a href="index.html">DEMOS</a></li>
+                    <li><a href="index.html">MEMBRESIAS</a></li>
+                    <a href="index.html"><img class="logo1" src="images/logo2.png" style="width: 15%;margin-top: -15px;"></a>
+
+                    <li><a href="index.html">SOBRE NOSOTROS</a></li>
+                    <li><a href="#" data-nav-section="contact">CONTACTANOS</a></li>
+                </ul>
+            </nav>
+            </div>
+            <!--=====================
+				banner
+			========================-->
+            <div class="banner" 
+                 style="background-image: linear-gradient(-20deg, #fc6247 0%, #ff9a44 100%)" 
+                 data-stellar-background-ratio="0.5">
+            <h1 class="to-animate"><img src="images/título01.png" style="width: 70%;padding-left: 10%;padding-right: 10%;"></h1>    
+            </div><br>
+            <!--=====================
+				Cotizacion
+			========================-->
+            <div class="container01">          
+                <section class="section initial">
+                    <img class="intro-image" src="img/app/intro.png" alt="">
+                    <h1 class="title">¿Deseas cotizar tu propia<strong> app</strong>?</h1>
+                    <p class="subtitle">Calcula de forma rápida el coste para crear tu app, contestando estas sencillas preguntas.</p>
+                    <button class="button text-uppercase js--start">Cotizar ahora</button>
+                </section>
+<!--pregunta n°1---------------------------------------------------------------------------------------->                
+                    <section class="section question"
+                        data-question-id="1"
+                        data-pph="true"
+                        style="display: none;">
+                        <input type="range" class="form-range" id="disabledRange" disabled="" style="padding-left: 10%;padding-right: 90%;"><br>
+                        <h2 class="question-title">¿Qué nivel de calidad estás buscando?</h2>
+                        
+                        <div class="answer-group row-of-3"><div class="col">
+                    <div class="answer js--answer"
+                        data-answer-id="1"
+                        data-answer-weight="60">
+                        
+                        <img class="answer-image js--answer-image"
+                            src="img/app/intro.png"
+                            data-src="img/app/answer-1-1.png"
+                            alt="Calidad óptima">
+                        <span class="answer-text">Calidad óptima</span>
+                    </div>
+                </div><div class="col">
+                    <div class="answer js--answer"
+                        data-answer-id="2"
+                        data-answer-weight="40">
+                        
+                        <img class="answer-image js--answer-image"
+                            src="img/app/intro.png"
+                            data-src="img/app/answer-1-2.png"
+                            alt="Buena relación calidad/precio">
+                        <span class="answer-text">Buena relación calidad/precio</span>
+                    </div>
+                </div><div class="col">
+                    <div class="answer js--answer"
+                        data-answer-id="3"
+                        data-answer-weight="20">
+                        
+                        <img class="answer-image js--answer-image"
+                            src="img/app/intro.png"
+                            data-src="img/app/answer-1-3.png"
+                            alt="No me importa tanto la calidad">
+                        <span class="answer-text">No me importa tanto la calidad</span>
+                    </div>
+                </div></div>
+                        <span class="text-bold question-progress">1/10</span><br>
+                        <span class="text-bold price-progress js--price-progress" style="margin-top: 290px;">-</span>
+                        
+                    </section>
+<!--pregunta n°2---------------------------------------------------------------------------------------->                
+                    <section class="section question"
+                        data-question-id="2"
+                        data-pph="false"
+                        style="display: none;">
+                        <input type="range" class="form-range" id="disabledRange" disabled="" style="padding-left: 20%;padding-right: 80%;"><br>
+                        <h2 class="question-title">¿Qué tipo de app necesitas?</h2>
+                        
+                        <div class="answer-group row-of-4"><div class="col">
+                    <div class="answer js--answer"
+                        data-answer-id="1"
+                        data-answer-weight="60">
+                        
+                        <img class="answer-image js--answer-image"
+                            src="img/app/intro.png"
+                            data-src="img/app/answer-2-1.png"
+                            alt="Aplicación Android">
+                        <span class="answer-text">Aplicación Android</span>
+                    </div>
+                </div><div class="col">
+                    <div class="answer js--answer"
+                        data-answer-id="2"
+                        data-answer-weight="60">
+                        
+                        <img class="answer-image js--answer-image"
+                            src="img/app/intro.png"
+                            data-src="img/app/answer-2-2.png"
+                            alt="Aplicación iOS">
+                        <span class="answer-text">Aplicación iOS</span>
+                    </div>
+                </div><div class="col">
+                    <div class="answer js--answer"
+                        data-answer-id="3"
+                        data-answer-weight="60">
+                        
+                        <img class="answer-image js--answer-image"
+                            src="img/app/intro.png"
+                            data-src="img/app/answer-2-3.png"
+                            alt="Aplicación Windows Phone">
+                        <span class="answer-text">Aplicación Windows Phone</span>
+                    </div>
+                </div><div class="col">
+                    <div class="answer js--answer"
+                        data-answer-id="4"
+                        data-answer-weight="100">
+                        
+                        <img class="answer-image js--answer-image"
+                            src="img/app/intro.png"
+                            data-src="img/app/answer-2-4.png"
+                            alt="Aplicación Android + iOS">
+                        <span class="answer-text">Aplicación Android + iOS</span>
+                    </div>
+                </div></div>
+                        <span class="text-bold question-progress">2/10</span>
+                        <span class="text-bold price-progress js--price-progress" style="margin-top: 290px;">-</span>
+                        
+                            <span class="link question-previous js--previous" >← Anterior</span>
+                        
+                    </section>
+<!--pregunta n°3---------------------------------------------------------------------------------------->                
+                    <section class="section question"
+                        data-question-id="3"
+                        data-pph="false"
+                        style="display: none;">
+                        <input type="range" class="form-range" id="disabledRange" disabled="" style="padding-left: 30%;padding-right: 70%;"><br>
+                        <h2 class="question-title">¿Qué diseño quieres que tenga tu App?</h2>
+                        
+                        <div class="answer-group row-of-4"><div class="col">
+                    <div class="answer js--answer"
+                        data-answer-id="1"
+                        data-answer-weight="40">
+                        
+                        <img class="answer-image js--answer-image"
+                            src="img/app/intro.png"
+                            data-src="img/app/answer-3-1.png"
+                            alt="Interfaz sencilla">
+                        <span class="answer-text">Interfaz sencilla</span>
+                    </div>
+                </div><div class="col">
+                    <div class="answer js--answer"
+                        data-answer-id="2"
+                        data-answer-weight="120">
+                        
+                        <img class="answer-image js--answer-image"
+                            src="img/app/intro.png"
+                            data-src="img/app/answer-3-2.png"
+                            alt="Interfaz personalizada">
+                        <span class="answer-text">Interfaz personalizada</span>
+                    </div>
+                </div><div class="col">
+                    <div class="answer js--answer"
+                        data-answer-id="3"
+                        data-answer-weight="80">
+                        
+                        <img class="answer-image js--answer-image"
+                            src="img/app/intro.png"
+                            data-src="img/app/answer-3-3.png"
+                            alt="Interfaz replicada de la web">
+                        <span class="answer-text">Interfaz replicada de la web</span>
+                    </div>
+                </div><div class="col">
+                    <div class="answer js--answer"
+                        data-answer-id="4"
+                        data-answer-weight="0">
+                        
+                        <img class="answer-image js--answer-image"
+                            src="img/app/intro.png"
+                            data-src="img/app/answer-3-4.png"
+                            alt="No necesito diseño">
+                        <span class="answer-text">No necesito diseño</span>
+                    </div>
+                </div></div>
+                        <span class="text-bold question-progress">3/10</span>
+                        <hr size="2px" width="80%" noshade="noshade" align="right" />
+                        <span class="text-bold1 price-progress js--price-progress">-</span>
+                            <span class="link question-previous js--previous">← Anterior</span>
+    
+                    </section>
+<!--pregunta n°4---------------------------------------------------------------------------------------->                
+                    <section class="section question"
+                        data-question-id="4"
+                        data-pph="false"
+                        style="display: none;">
+                        <input type="range" class="form-range" id="disabledRange" disabled="" style="padding-left: 40%;padding-right: 60%;"><br>
+                        <h2 class="question-title">¿Cómo quieres sacar beneficio a tu App?</h2>
+                        
+                        <div class="answer-group row-of-4"><div class="col">
+                    <div class="answer js--answer"
+                        data-answer-id="1"
+                        data-answer-weight="5">
+                        
+                        <img class="answer-image js--answer-image"
+                            src="img/app/intro.png"
+                            data-src="img/app/answer-4-1.png"
+                            alt="Aplicación gratuita con publicidad">
+                        <span class="answer-text">Aplicación gratuita con publicidad</span>
+                    </div>
+                </div><div class="col">
+                    <div class="answer js--answer"
+                        data-answer-id="2"
+                        data-answer-weight="5">
+                        
+                        <img class="answer-image js--answer-image"
+                            src="img/app/intro.png"
+                            data-src="img/app/answer-4-2.png"
+                            alt="Aplicación de pago">
+                        <span class="answer-text">Aplicación de pago</span>
+                    </div>
+                </div><div class="col">
+                    <div class="answer js--answer"
+                        data-answer-id="3"
+                        data-answer-weight="40">
+                        
+                        <img class="answer-image js--answer-image"
+                            src="img/app/intro.png"
+                            data-src="img/app/answer-4-3.png"
+                            alt="Compras dentro de la app">
+                        <span class="answer-text">Compras dentro de la app</span>
+                    </div>
+                </div><div class="col">
+                    <div class="answer js--answer"
+                        data-answer-id="4"
+                        data-answer-weight="10">
+                        
+                        <img class="answer-image js--answer-image"
+                            src="img/app/intro.png"
+                            data-src="img/app/answer-4-4.png"
+                            alt="Otros / No lo sé todavía">
+                        <span class="answer-text">Otros / No lo sé todavía</span>
+                    </div>
+                </div></div>
+                        <span class="text-bold question-progress">4/10</span>
+                        <hr size="2px" width="80%" noshade="noshade" align="right" />
+                        <span class="text-bold1 price-progress js--price-progress">-</span><br><br>                       
+                            <span class="link question-previous js--previous">← Anterior</span>
+                        
+                    </section>
+<!--pregunta n°5---------------------------------------------------------------------------------------->                
+                    <section class="section question"
+                        data-question-id="5"
+                        data-pph="false"
+                        style="display: none;">
+                        <input type="range" class="form-range" id="disabledRange" disabled="" style="padding-left: 50%;padding-right: 50%;"><br>
+                        <h2 class="question-title">¿Tu App necesita un sistema de login ?</h2>
+                        
+                        <div class="answer-group row-of-4"><div class="col">
+                    <div class="answer js--answer"
+                        data-answer-id="1"
+                        data-answer-weight="40">
+                        
+                        <img class="answer-image js--answer-image"
+                            src="img/app/intro.png"
+                            data-src="img/app/answer-5-1.png"
+                            alt="Sí, con redes sociales y email">
+                        <span class="answer-text">Sí, con redes sociales y email</span>
+                    </div>
+                </div><div class="col">
+                    <div class="answer js--answer"
+                        data-answer-id="2"
+                        data-answer-weight="25">
+                        
+                        <img class="answer-image js--answer-image"
+                            src="img/app/intro.png"
+                            data-src="img/app/answer-5-2.png"
+                            alt="Sí, con email">
+                        <span class="answer-text">Sí, con email</span>
+                    </div>
+                </div><div class="col">
+                    <div class="answer js--answer"
+                        data-answer-id="3"
+                        data-answer-weight="0">
+                        
+                        <img class="answer-image js--answer-image"
+                            src="img/app/intro.png"
+                            data-src="img/app/answer-5-3.png"
+                            alt="No">
+                        <span class="answer-text">No</span>
+                    </div>
+                </div><div class="col">
+                    <div class="answer js--answer"
+                        data-answer-id="4"
+                        data-answer-weight="20">
+                        
+                        <img class="answer-image js--answer-image"
+                            src="img/app/intro.png"
+                            data-src="img/app/answer-5-4.png"
+                            alt="No lo sé todavía">
+                        <span class="answer-text">No lo sé todavía</span>
+                    </div>
+                </div></div>
+                        <span class="text-bold question-progress">5/10</span>
+                        <hr size="2px" width="80%" noshade="noshade" align="right" />
+                        <span class="text-bold1 price-progress js--price-progress">-</span><br><br>                        
+                            <span class="link question-previous js--previous">← Anterior</span>
+                        
+                    </section>
+<!--pregunta n°6---------------------------------------------------------------------------------------->                
+                    <section class="section question"
+                        data-question-id="6"
+                        data-pph="false"
+                        style="display: none;">
+                        <input type="range" class="form-range" id="disabledRange" disabled="" style="padding-left: 60%;padding-right: 40%;"><br>
+                        <h2 class="question-title">¿Tu App tiene que estar integrada con un sitio web?</h2>
+                        
+                        <div class="answer-group row-of-3"><div class="col">
+                    <div class="answer js--answer"
+                        data-answer-id="1"
+                        data-answer-weight="40">
+                        
+                        <img class="answer-image js--answer-image"
+                            src="img/app/intro.png"
+                            data-src="img/app/answer-6-1.png"
+                            alt="Sí">
+                        <span class="answer-text">Sí</span>
+                    </div>
+                </div><div class="col">
+                    <div class="answer js--answer"
+                        data-answer-id="2"
+                        data-answer-weight="0">
+                        
+                        <img class="answer-image js--answer-image"
+                            src="img/app/intro.png"
+                            data-src="img/app/answer-6-2.png"
+                            alt="No">
+                        <span class="answer-text">No</span>
+                    </div>
+                </div><div class="col">
+                    <div class="answer js--answer"
+                        data-answer-id="3"
+                        data-answer-weight="20">
+                        
+                        <img class="answer-image js--answer-image"
+                            src="img/app/intro.png"
+                            data-src="img/app/answer-6-3.png"
+                            alt="No lo sé">
+                        <span class="answer-text">No lo sé</span>
+                    </div>
+                </div></div>
+                        <span class="text-bold question-progress">6/10</span>
+                        <hr size="2px" width="80%" noshade="noshade" align="right" />
+                        <span class="text-bold1 price-progress js--price-progress">-</span><br><br>                        
+                            <span class="link question-previous js--previous">← Anterior</span>
+                        
+                    </section>
+<!--pregunta n°7---------------------------------------------------------------------------------------->                
+                    <section class="section question"
+                        data-question-id="7"
+                        data-pph="false"
+                        style="display: none;">
+                        <input type="range" class="form-range" id="disabledRange" disabled="" style="padding-left: 70%;padding-right: 30%;"><br>
+                        <h2 class="question-title">¿Los usuarios tienen sus propios perfiles?</h2>
+                        
+                        <div class="answer-group row-of-3"><div class="col">
+                    <div class="answer js--answer"
+                        data-answer-id="1"
+                        data-answer-weight="40">
+                        
+                        <img class="answer-image js--answer-image"
+                            src="img/app/intro.png"
+                            data-src="img/app/answer-7-1.png"
+                            alt="Sí">
+                        <span class="answer-text">Sí</span>
+                    </div>
+                </div><div class="col">
+                    <div class="answer js--answer"
+                        data-answer-id="2"
+                        data-answer-weight="0">
+                        
+                        <img class="answer-image js--answer-image"
+                            src="img/app/intro.png"
+                            data-src="img/app/answer-7-2.png"
+                            alt="No">
+                        <span class="answer-text">No</span>
+                    </div>
+                </div><div class="col">
+                    <div class="answer js--answer"
+                        data-answer-id="3"
+                        data-answer-weight="20">
+                        
+                        <img class="answer-image js--answer-image"
+                            src="img/app/intro.png"
+                            data-src="img/app/answer-7-3.png"
+                            alt="No lo sé">
+                        <span class="answer-text">No lo sé</span>
+                    </div>
+                </div></div>
+                        <span class="text-bold question-progress">7/10</span>
+                        <hr size="2px" width="80%" noshade="noshade" align="right" />
+                        <span class="text-bold1 price-progress js--price-progress">-</span><br><br>                        
+                            <span class="link question-previous js--previous">← Anterior</span>
+                        
+                    </section>
+<!--pregunta n°8---------------------------------------------------------------------------------------->                
+                    <section class="section question"
+                        data-question-id="8"
+                        data-pph="false"
+                        style="display: none;">
+                        <input type="range" class="form-range" id="disabledRange" disabled="" style="padding-left: 80%;padding-right: 20%;"><br>
+                        <h2 class="question-title">¿Tu app necesita un panel de administración?</h2>
+                        
+                        <div class="answer-group row-of-3"><div class="col">
+                    <div class="answer js--answer"
+                        data-answer-id="1"
+                        data-answer-weight="40">
+                        
+                        <img class="answer-image js--answer-image"
+                            src="img/app/intro.png"
+                            data-src="img/app/answer-8-1.png"
+                            alt="Sí">
+                        <span class="answer-text">Sí</span>
+                    </div>
+                </div><div class="col">
+                    <div class="answer js--answer"
+                        data-answer-id="2"
+                        data-answer-weight="0">
+                        
+                        <img class="answer-image js--answer-image"
+                            src="img/app/intro.png"
+                            data-src="img/app/answer-8-2.png"
+                            alt="No">
+                        <span class="answer-text">No</span>
+                    </div>
+                </div><div class="col">
+                    <div class="answer js--answer"
+                        data-answer-id="3"
+                        data-answer-weight="20">
+                        
+                        <img class="answer-image js--answer-image"
+                            src="img/app/intro.png"
+                            data-src="img/app/answer-8-3.png"
+                            alt="No lo sé">
+                        <span class="answer-text">No lo sé</span>
+                    </div>
+                </div></div>
+                        <span class="text-bold question-progress">8/10</span>
+                        <hr size="2px" width="80%" noshade="noshade" align="right" />
+                        <span class="text-bold1 price-progress js--price-progress">-</span><br><br>                        
+                            <span class="link question-previous js--previous">← Anterior</span>
+                        
+                    </section>
+<!--pregunta n°9---------------------------------------------------------------------------------------->                
+                    <section class="section question"
+                        data-question-id="9"
+                        data-pph="false"
+                        style="display: none;">
+                        <input type="range" class="form-range" id="disabledRange" disabled="" style="padding-left: 90%;padding-right: 10%;"><br>
+                        <h2 class="question-title">¿Qué idiomas usará tu aplicación?</h2>
+                        
+                        <div class="answer-group row-of-3"><div class="col">
+                    <div class="answer js--answer"
+                        data-answer-id="1"
+                        data-answer-weight="0">
+                        
+                        <img class="answer-image js--answer-image"
+                            src="img/app/intro.png"
+                            data-src="img/app/answer-9-1.png"
+                            alt="Un único idioma">
+                        <span class="answer-text">Un único idioma</span>
+                    </div>
+                </div><div class="col">
+                    <div class="answer js--answer"
+                        data-answer-id="2"
+                        data-answer-weight="20">
+                        
+                        <img class="answer-image js--answer-image"
+                            src="img/app/intro.png"
+                            data-src="img/app/answer-9-2.png"
+                            alt="Bilingüe">
+                        <span class="answer-text">Bilingüe</span>
+                    </div>
+                </div><div class="col">
+                    <div class="answer js--answer"
+                        data-answer-id="3"
+                        data-answer-weight="40">
+                        
+                        <img class="answer-image js--answer-image"
+                            src="img/app/intro.png"
+                            data-src="img/app/answer-9-3.png"
+                            alt="Multilingüe">
+                        <span class="answer-text">Multilingüe</span>
+                    </div>
+                </div></div>
+                        <span class="text-bold question-progress" >9/10</span>
+                        <hr size="2px" width="80%" noshade="noshade" align="right" />
+                        <span class="text-bold1 price-progress js--price-progress">-</span><br><br>                        
+                            <span class="link question-previous js--previous">← Anterior</span><br>
+                        
+                    </section>
+<!--pregunta n°10---------------------------------------------------------------------------------------->                
+                    <section class="section question"
+                        data-question-id="10"
+                        data-pph="false"
+                        style="display: none;">
+                        <input type="range" class="form-range" id="disabledRange" disabled="" style="padding-left: 100%;"><br>
+                        <h2 class="question-title">¿En qué estado se encuentra tu proyecto?</h2>
+                        
+                        <div class="answer-group row-of-4"><div class="col">
+                    <div class="answer js--answer"
+                        data-answer-id="1"
+                        data-answer-weight="0">
+                        
+                        <img class="answer-image js--answer-image"
+                            src="img/app/intro.png"
+                            data-src="img/app/answer-10-1.png"
+                            alt="Sólo es una idea">
+                        <span class="answer-text">Sólo es una idea</span>
+                    </div>
+                </div><div class="col">
+                    <div class="answer js--answer"
+                        data-answer-id="2"
+                        data-answer-weight="0">
+                        
+                        <img class="answer-image js--answer-image"
+                            src="img/app/intro.png"
+                            data-src="img/app/answer-10-2.png"
+                            alt="Boceto ya preparado">
+                        <span class="answer-text">Boceto ya preparado</span>
+                    </div>
+                </div><div class="col">
+                    <div class="answer js--answer"
+                        data-answer-id="3"
+                        data-answer-weight="0">
+                        
+                        <img class="answer-image js--answer-image"
+                            src="img/app/intro.png"
+                            data-src="img/app/answer-10-3.png"
+                            alt="App en desarrollo">
+                        <span class="answer-text">App en desarrollo</span>
+                    </div>
+                </div><div class="col">
+                    <div class="answer js--answer"
+                        data-answer-id="4"
+                        data-answer-weight="0">
+                        
+                        <img class="answer-image js--answer-image"
+                            src="img/app/intro.png"
+                            data-src="img/app/answer-10-4.png"
+                            alt="App ya desarrollada">
+                        <span class="answer-text">App ya desarrollada</span>
+                    </div>
+                </div></div>
+                        <span class="text-bold question-progress">10/10</span>
+                        <hr size="2px" width="80%" noshade="noshade" align="right" />
+                        <span class="text-bold1 price-progress js--price-progress">-</span><br><br>                        
+                            <span class="link question-previous js--previous">← Anterior</span>
+                        
+                    </section>
+            <!--=====================
+			    Editar respuestas
+			========================-->
+                <section class="section results" style="display: none;">
+
+                    <h2>SOFTLUTIONS EC estima que el precio de tu app es:<br>
+                        <span class="claim">
+                            <span class="js--total-price">-</span>
+                        </span>
+                    </h2><br>
+
+                    <div class="results-container">
+                        <p><span class="link js--toggle-results">Ver / Editar respuestas</span></p><br>
+                        <ul class="results-summary js--results-summary">
+                            
+                                <li class="result js--result" data-question-id="1">
+                    <img class="result-image js--result-image" src="img/app/answer-1-1.png" alt="">
+                    <div class="result-body">
+                        <span class="result-question">¿Qué nivel de calidad estás buscando?</span>
+                        <span>
+                            <b class="result-answer js--result-answer"></b>&nbsp;
+                            <span class="result-change js--change">Cambiar</span>
+                        </span>
+                    </div>
+                </li>
+                            
+                                <li class="result js--result" data-question-id="2">
+                    <img class="result-image js--result-image" src="/img/app/answer-1-1.png" alt="">
+                    <div class="result-body">
+                        <span class="result-question">¿Qué tipo de app necesitas?</span>
+                        <span>
+                            <b class="result-answer js--result-answer"></b>&nbsp;
+                            <span class="result-change js--change">Cambiar</span>
+                        </span>
+                    </div>
+                </li>
+                            
+                                <li class="result js--result" data-question-id="3">
+                    <img class="result-image js--result-image" src="img/app/answer-1-1.png" alt="">
+                    <div class="result-body">
+                        <span class="result-question">¿Qué diseño quieres que tenga tu App?</span>
+                        <span>
+                            <b class="result-answer js--result-answer"></b>&nbsp;
+                            <span class="result-change js--change">Cambiar</span>
+                        </span>
+                    </div>
+                </li>
+                            
+                                <li class="result js--result" data-question-id="4">
+                    <img class="result-image js--result-image" src="img/app/answer-1-1.png" alt="">
+                    <div class="result-body">
+                        <span class="result-question">¿Cómo quieres sacar beneficio a tu App?</span>
+                        <span>
+                            <b class="result-answer js--result-answer"></b>&nbsp;
+                            <span class="result-change js--change">Cambiar</span>
+                        </span>
+                    </div>
+                </li>
+                            
+                                <li class="result js--result" data-question-id="5">
+                    <img class="result-image js--result-image" src="img/app/answer-1-1.png" alt="">
+                    <div class="result-body">
+                        <span class="result-question">¿Tu App necesita un sistema de login ?</span>
+                        <span>
+                            <b class="result-answer js--result-answer"></b>&nbsp;
+                            <span class="result-change js--change">Cambiar</span>
+                        </span>
+                    </div>
+                </li>
+                            
+                                <li class="result js--result" data-question-id="6">
+                    <img class="result-image js--result-image" src="img/app/answer-1-1.png" alt="">
+                    <div class="result-body">
+                        <span class="result-question">¿Tu App tiene que estar integrada con un sitio web?</span>
+                        <span>
+                            <b class="result-answer js--result-answer"></b>&nbsp;
+                            <span class="result-change js--change">Cambiar</span>
+                        </span>
+                    </div>
+                </li>
+                            
+                                <li class="result js--result" data-question-id="7">
+                    <img class="result-image js--result-image" src="img/app/answer-1-1.png" alt="">
+                    <div class="result-body">
+                        <span class="result-question">¿Los usuarios tienen sus propios perfiles?</span>
+                        <span>
+                            <b class="result-answer js--result-answer"></b>&nbsp;
+                            <span class="result-change js--change">Cambiar</span>
+                        </span>
+                    </div>
+                </li>
+                            
+                                <li class="result js--result" data-question-id="8">
+                    <img class="result-image js--result-image" src="img/app/answer-1-1.png" alt="">
+                    <div class="result-body">
+                        <span class="result-question">¿Tu app necesita un panel de administración?</span>
+                        <span>
+                            <b class="result-answer js--result-answer"></b>&nbsp;
+                            <span class="result-change js--change">Cambiar</span>
+                        </span>
+                    </div>
+                </li>
+                            
+                                <li class="result js--result" data-question-id="9">
+                    <img class="result-image js--result-image" src="img/app/answer-1-1.png" alt="">
+                    <div class="result-body">
+                        <span class="result-question">¿Qué idiomas usará tu aplicación?</span>
+                        <span>
+                            <b class="result-answer js--result-answer"></b>&nbsp;
+                            <span class="result-change js--change">Cambiar</span>
+                        </span>
+                    </div>
+                </li>
+                            
+                                <li class="result js--result" data-question-id="10">
+                    <img class="result-image js--result-image" src="img/app/answer-1-1.png" alt="">
+                    <div class="result-body">
+                        <span class="result-question">¿En qué estado se encuentra tu proyecto?</span>
+                        <span>
+                            <b class="result-answer js--result-answer"></b>&nbsp;
+                            <span class="result-change js--change">Cambiar</span>
+                        </span>
+                    </div>
+                </li>
+                            
+                        </ul>
+                    </div>
+                    <p style="padding-right: 20%;padding-left: 20%;text-align: justify;"><strong style="text-align: center;">Para confirmar y contactarte con la empresa sigue los siguientes pasos:</strong><br><strong>1.-</strong> en <strong> "Ver/Editar respuestas"</strong> y realice una captura de las opciones seleccionadas<br><strong>2.-</strong> Presione el boton "Finalizar y contactar"<br><strong>3.-</strong> Al precionar el boton mensionado se le redireccionara al WhatsApp de la empresa, para una comunicacion mas eficiente.<a >SOFTLUTIONS EC</a>.</p>
+                    
+                        <a class="button js--start-project ypOpenPublishProjectModal" style="text-decoration: none;"
+                        href="https://api.whatsapp.com/send?phone=593984571859&text=Hola%20quiero%20mas%20informaci%C3%B3n%20acerca%20de%20sus%20servicios,%20espero%20su%20respuesta%20por%20este%20medio,%20muchas%20gracias">
+                            Finalizar y contactar<br><i class="icon-whatsapp"></i>
+                        </a>
+                    
+
+                    <span class="link1 results-restart js--restart">← Volver a empezar</span><br>
+
+                </section><br>
+            </div><br><br><br><br>  
+            <!--=====================
+				Contactanos
+			========================-->
+			<div id="fh5co-contact" data-section="contact" style="background-image: linear-gradient(to top, #000000e9 0%, #040404 100%);">
+				<div class="container02" style="padding-left: 60px;padding-right: 60px;margin-top: -38px;">
+					
+					<div class="row">
+						<h2 class="heading to-animate" style="color: rgb(255, 90, 1);text-align: center;">CONTACTENOS</h2>
+						<h3 class="section-title" style="text-align: center;">  <img src="images/contact.png"></h3>
+					
+						<div class="col-md-6 to-animate-2">
+							<h3 style="color: rgb(241, 107, 18);">Informacion de contacto</h3>
+							<ul class="fh5co-contact-info">
+								<li class="fh5co-contact-address ">
+									<i class="icon-home" style="color: white;"></i >
+									Sangolqui
+								</li>
+								<li><i class="icon-phone" style="color: white;"></i> 098-457-1859</li>
+								<li><i class="icon-envelope" style="color: white;"></i>info@softlutionsec.com</li>
+								<li><i class="icon-globe" style="color: white;"></i> <a href="index.html" target="_blank">softlution.ec</a></li>
+							</ul>
+						</div>
+						<div class="col-md-6 to-animate-3">
+							<h3 style="color: rgb(241, 107, 18);">Formulario</h3>
+							<div class="form-group ">
+								<label for="name" class="sr-only">Name</label>
+								<input id="name" class="form-control" placeholder="Name" type="text">
+							</div>
+							<div class="form-group ">
+								<label for="email" class="sr-only">Email</label>
+								<input id="email" class="form-control" placeholder="Email" type="email">
+							</div>
+							<div class="form-group">
+								<label for="occation" class="sr-only">Occation</label>
+								<select class="form-control" id="occation">
+									<option>Select an Occation</option>
+								<option>Wedding Ceremony</option>
+								<option>Birthday</option>
+								<option>Others</option>
+								</select>
+							</div>
+							<div class="form-group ">
+								<label for="message" class="sr-only">Message</label>
+								<textarea name="" id="message" cols="30" rows="5" class="form-control" placeholder="Message"></textarea>
+							</div>
+							<div class="form-group ">
+								<input class="btn btn-primary" value="Send Message" type="submit" style="background-color: rgb(241, 97, 19);border-color: transparent;">
+							</div>
+							</div>
+					</div>
+				</div>
+			</div>
+            <div style="background-color: #f37439;height: 5px;"></div>
+			<!--==================
+				header inferior
+			=====================-->
+			<div id="fh5co-footer" >
+				<div class="container03">
+					<div class="row row-padded">
+						<div class="col-md-12 text-center" >
+							<p class="to-animate">&copy;Copyright Soflutions. Todos los derechos<br><a  target="_blank">Telefono:</a><br>(+593) 0984571859 <br><a  target="_blank">Email</a> <br> info@softlutionsec.com <a target="_blank"></a>
+							</p>
+							<p class="text-center to-animate"><a href="#" class="js-gotop"><img src="images/logo4.png" style="width: 20%;"></a></p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-center">
+							<ul class="fh5co-social">
+								<li class="to-animate-2"><a href="https://es-la.facebook.com/softlutionsEC/"><i class="icon-facebook"></i></a></li>
+								<li class="to-animate-2"><a href="https://twitter.com/softlutions_ec"><i class="icon-twitter"></i></a></li>
+								<li class="to-animate-2"><a href="https://api.whatsapp.com/send?phone=593984571859&text=Hola%20quiero%20mas%20informaci%C3%B3n%20acerca%20de%20sus%20servicios,%20espero%20su%20respuesta%20por%20este%20medio,%20muchas%20gracias"><i class="icon-whatsapp"></i></a></li>
+								<li class="to-animate-2"><a href="https://instagram.com/softlutionsec?utm_medium=copy_link"><i class="icon-instagram"></i></a></li>
+								<li class="to-animate-2"><a href="#"><i class="icon-linkedin"></i></a></li>
+
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+            
+        <div id="config"
+            data-type="app"
+            data-lang="es"
+            data-pph="30"
+            data-multi=""
+            data-curr-symbol="$"
+            data-curr-symbol-before="false"
+            data-curr-thousands="."
+            data-curr-decimal=","
+            data-curr-exchange="0.08"></div>
+
+        <script src="js/home.js"></script>      
+   
+    </body>
+</html>
